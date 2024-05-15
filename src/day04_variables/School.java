@@ -1,7 +1,5 @@
 package day04_variables;
-
-public class School {
-    /*
+/*
     Task:
 
     class name: School
@@ -22,16 +20,35 @@ public class School {
     print all of the variables with unique messages
 
 */
+public class School {
+
     public static void main(String[] args) {
         int numberOfStudentsInGradeOne = 40;
         int numberOfStudentsInGradeTwo = 25;
         int numberOfStudentsInGradeThree = 34;
         int numberOfStudentsInGradeFour = 19;
-        int numberOfStudentsInGradeFive = 28;
+        int numberOfStudentsInGradeFive = 29;
 
-        int totalNumbersOfStudents = numberOfStudentsInGradeOne+numberOfStudentsInGradeTwo+numberOfStudentsInGradeThree+numberOfStudentsInGradeFour+numberOfStudentsInGradeFive; //146
-        double numberOfSchoolDays =100.5;
+        int totalNumberOfStudents = numberOfStudentsInGradeOne + numberOfStudentsInGradeTwo + numberOfStudentsInGradeThree + numberOfStudentsInGradeFour + numberOfStudentsInGradeFive;
+
+
+        double numberOfSchoolDays = 100.5;
         double numberOfSnowDays = 5.5;
+        double averageGpaInSchool = 3.6;
+
+        System.out.println("Number of students in Grade 1: " + numberOfStudentsInGradeOne);
+        System.out.println("Number of students in Grade 2: " + numberOfStudentsInGradeTwo);
+        System.out.println("Number of students in Grade 3: " + numberOfStudentsInGradeThree);
+        System.out.println("Number of students in Grade 4: " + numberOfStudentsInGradeFour);
+        System.out.println("Number of students in Grade 5: " + numberOfStudentsInGradeFive);
+
+        System.out.println();
+
+        System.out.println("Total number of students: \t" + totalNumberOfStudents);
+
+        System.out.println("Number of  School days: \t" + numberOfSchoolDays);
+        System.out.println("Number of Snow days: \t\t" + numberOfSnowDays);
+        System.out.println("Average GPA in School: \t\t" + averageGpaInSchool);
 
     }
 }

@@ -17,26 +17,28 @@ public class Comments {
          */
         System.out.println("A");
 
+
         /**
-         * #3 - JAVA DOC COMMENT -> JAVA DOCUMENTATION COMMENT
+         * #3 - JAVA DOC COMMENT - > JAVA DOCUMENTATION COMMENT
          * The following codes is printing a statement
-         * thet says "This a printing a statement"
+         * that says "This  is a println statement"
+         *
          */
-        System.out.println("This a printing a statement");
+        System.out.println("This is a println statement");
 
 
+        // ToDo: Change the weekday when you run this code
+        System.out.println("Today is Saturday");
 
 
-        //TODO: Change the weekday when you run this code
-        System.out.println("Today is Sartudey");
 
         /*
-        ToDo:
+            TODO:
          */
-/**
- * ToDo
- */
 
+        /**
+         *  todo:
+         */
 
     }
 }
