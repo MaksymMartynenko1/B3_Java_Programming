@@ -1,7 +1,5 @@
 package day05_variables;
 
-
-
 public class BooleanExample {
     public static void main (String [] args) {
         boolean isSleepy = true;
@@ -13,14 +11,6 @@ public class BooleanExample {
         System.out.println("Is Hungry? " + isHungry);
         System.out.println("Is Weekend? " + isWeekend);
         System.out.println("Is WeekDay? " + isWeekDay);
-
-    }
-}
-
-public class EmployeeInfo {
-    public static void main(String[] args) {
-
-
 
     }
 }

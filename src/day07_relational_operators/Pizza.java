@@ -1,7 +1,6 @@
 package day07_relational_operators;
 
-
-    /*
+/*
     create a class Pizza
     add a main method
     declare and assign these variables:
@@ -15,21 +14,18 @@ package day07_relational_operators;
 
        We ordered cheese pizza with 8 slices, 4 people ate 2 slices each with 0 left over
  */
-    public class Pizza {
-        public static void main(String[] args) {
-            String typeOfPizza = "Cheese";
-            int numOfSlices = 10;
-            int numOfPeople = 4;
+public class Pizza {
+    public static void main (String [] args){
 
-            int slicesPerPerson = numOfSlices/numOfPeople; //10/4 --- > 2
-            int slicesLeftOver = numOfSlices%numOfPeople;   //10 - (numOfPeople * slicesPerPerson) = 2 ---- 10 % 4
-            String result = "We ordered " + typeOfPizza + " pizza with " + numOfSlices + " slices. " + numOfPeople + " people ate " + slicesPerPerson + " for each and " + slicesLeftOver + " is left.";
+        String typeOfPizza = "Cheese";
+        int numOfSlices = 10;
+        int numOfPeople = 4;
 
-            System.out.println(result);
-            //String result = "We order " + typeOfPizza + " pizza with " + numOfSlices + "sli"
+        int slicesPerPerson = numOfSlices / numOfPeople; // 10 / 4 --- > 2 --- >  gives output what is DIVISIBLE
+        int slicesLeftOver = numOfSlices % numOfPeople;  // 10 - (numOfPeople *  slicesPerPerson) = 2 ---- 10 % 4 - > gives output what is NOT DIVISIBLE
 
+        String result = "We ordered " + typeOfPizza + " pizza with " + numOfSlices + " slices. " + numOfPeople + " people ate " + slicesPerPerson + " for each and " + slicesLeftOver + " is left.";
 
-        }
-
-
+        System.out.println(result);
+    }
 }

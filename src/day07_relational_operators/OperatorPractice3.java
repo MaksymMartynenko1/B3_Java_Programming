@@ -18,10 +18,6 @@ public class OperatorPractice3 {
             //2nd use -> 100
 
 
-        System.out.println("t:" + t);
-
-
-
+        System.out.println("t: " + t); // t: 100
     }
-
 }

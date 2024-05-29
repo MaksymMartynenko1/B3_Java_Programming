@@ -41,17 +41,5 @@ public class House {
 
         System.out.println(houseInfo);
 
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
