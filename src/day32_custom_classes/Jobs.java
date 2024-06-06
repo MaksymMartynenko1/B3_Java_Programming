@@ -1,5 +1,7 @@
 package day32_custom_classes;
 
+import day33_a_static.Offer;
+
 public class Jobs {
     public static void main(String[] args) {
         Offer o1 = new Offer("Apple", "California");

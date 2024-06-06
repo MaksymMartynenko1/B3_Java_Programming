@@ -1,4 +1,4 @@
-package day32_custom_classes;
+package day33_a_static;
 
 /*
     create a class called Offer
@@ -27,7 +27,7 @@ package day32_custom_classes;
 public class Offer {
     String location;
     String company;
-    double salary;
+    public double salary;
     boolean isFullTime;
     int numberOfPTO;
 
