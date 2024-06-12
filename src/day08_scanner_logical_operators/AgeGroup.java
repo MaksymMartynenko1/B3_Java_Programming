@@ -1,4 +1,6 @@
 package day08_scanner_logical_operators;
+
+
 /*
 task:
 
@@ -12,15 +14,13 @@ task:
 public class AgeGroup {
     public static void main(String[] args) {
 
-        int age = 40;
+        int personAge = 40;
 
-        boolean isKid = age  <= 13;
-        boolean isSenior = age >=65;
+        boolean isKid = personAge <= 13;
+        boolean isSenior = personAge >= 65;
+
 
         System.out.println("The person is kid: " + isKid);
         System.out.println("The person is senior: " + isSenior);
-
-
-
-    }
+        }
 }

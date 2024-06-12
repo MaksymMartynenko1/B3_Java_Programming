@@ -1,33 +1,5 @@
 package day07_relational_operators;
 
-//public class UpdateVariable {
-//    public static void main(String[] args) {
-//        int a = 10;
-//        a = 11; //re-assigned a new value to a
-//        a++;    //re-assigned [a = a+1] new value to a
-//        ++a;
-//        a = a + 1;
-//
-//        // add 10
-//        a = a + 10;
-//        a += 10;
-//        System.out.println(a);
-//
-//        int b = 2;
-//        b *= 6;
-//        System.out.println(b);
-//
-//        int c = 10;
-//        c %= 3;
-//        System.out.println(c);
-//
-//
-//
-//    }
-//}
-
-//package day07_relational_operators;
-
 public class UpdateVariable {
     public static void main(String[] args) {
         int a = 10;
@@ -50,8 +22,6 @@ public class UpdateVariable {
 
         int c = 10;
         c %= 3; // c = c % 3; --- >  c = 10 % 3; ---- > c = 1;
-        System.out.println(c);
-
-
+        System.out.println(c); // 1
     }
 }

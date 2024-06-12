@@ -1,14 +1,5 @@
 package day06_a_arithmetic_operators;
 
-//public class DifferentTypes {
-//    public static void main(String[] args) {
-//
-//        //both int
-//    System.out.println(10 -5);
-//    System.out.println(10 -5);
-
- //       package day06_a_arithmetic_operators;
-
 public class DifferentTypes {
     public static void main(String[] args) {
 
@@ -33,11 +24,5 @@ public class DifferentTypes {
         System.out.println((int)(10.0 / 5.0));
         System.out.println((int)10.0 / (int)5.0);
 
-
-
-
     }
 }
-
-
-
